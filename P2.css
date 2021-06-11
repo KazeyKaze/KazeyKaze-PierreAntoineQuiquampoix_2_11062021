@@ -1,0 +1,16 @@
+body
+{
+    
+}
+
+@font-face 
+{
+    font-family: "Raleway-Regular";
+    src: url("Font/Raleway-Regular.ttf") format("truetype");
+}
+
+@font-face 
+{
+    font-family: "Raleway-Bold";
+    src: url("Font/Raleway-Bold.ttf") format("truetype");
+}
