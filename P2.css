@@ -1,6 +1,53 @@
 body
 {
-    
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    margin-top: 2.5em;
+}
+
+.logomenu
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu
+{
+    display: flex;
+    list-style: none;
+    margin-right: 3em;
+    font-family: "Raleway-Regular";
+}
+
+li
+{
+    margin-left: 5em;
+}
+
+.signup
+{
+    color: #0065fc;
+    font-weight: bold;
+}
+
+a:visited, a:link, a
+{
+    text-decoration: none;
+    color: initial;
+}
+
+.li:hover
+{
+    color: #0065fc;
+    border-top: 2px solid;
+    padding-top: 3.4em;
+}
+
+.long
+{
+    display: inline-block;
+    width: 130%;
+    text-align: center;
 }
 
 @font-face 
