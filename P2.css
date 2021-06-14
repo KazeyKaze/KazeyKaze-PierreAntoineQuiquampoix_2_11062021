@@ -1,8 +1,66 @@
+/*------------------------- Début du reset -------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body
+{
+	line-height: 2.5;
+}
+
+ol, ul
+{
+	list-style: none;
+}
+
+blockquote, q
+{
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after
+{
+	content: '';
+	content: none;
+}
+
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*------------------------- Fin du reset -------------------------*/
+
 body
 {
     margin-left: 3em;
     margin-right: 3em;
-    margin-top: 2.5em;
+    margin-top: 3em;
 }
 
 .logomenu
@@ -14,7 +72,6 @@ body
 .menu
 {
     display: flex;
-    list-style: none;
     margin-right: 3em;
     font-family: "Raleway-Regular", Arial, Helvetica, sans-serif;
 }
@@ -40,7 +97,7 @@ a:visited, a:link, a
 {
     color: #0065fc;
     border-top: 2px solid;
-    padding-top: 3.4em;
+    padding-top: 3.5em;
 }
 
 .long
@@ -54,7 +111,8 @@ a:visited, a:link, a
 {
     font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
     font-size: 1.4em;
-    margin-top: 1.5em;
+    margin-top: 1em;
+    white-space: nowrap;
 }
 
 .texte2
@@ -66,6 +124,7 @@ a:visited, a:link, a
 .search
 {
 display: flex;
+margin-top: 1em;
 }
 
 .fa-map-marker-alt
@@ -85,7 +144,7 @@ display: flex;
     border-style: solid;
     border-width: 1px;
     border-color: #f2f2f2;
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding: 0.5em 1em 0.5em 1em;
 }
 
@@ -122,6 +181,7 @@ input:focus
     align-items: center;
     font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
     margin-top: 1.5em;
+    white-space: nowrap;
 }
 
 .filtre1
@@ -135,13 +195,21 @@ input:focus
 .filtre2
 {
     display: flex;
+    font-size: 1.1em;
     align-items: center;
     border-style: solid;
+    border-width: 2px;
     border-left: none;
     border-color: #f2f2f2;
     border-radius: 30px;
     padding-right: 1em;
-    margin-right: 2em;
+    margin-right: 1.5em;
+}
+
+.filtre2:hover
+{
+    background-color: #deebff;
+    cursor: pointer;
 }
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
@@ -149,7 +217,7 @@ input:focus
     display: flex;
     color: #0065fc;
     font-size: 1.4em;
-    padding: 0.7em;
+    padding: 0.6em;
     background-color: #deebff;
     border-radius: 50%;
     margin-right: 0.6em;
@@ -157,14 +225,14 @@ input:focus
 
 .fa-money-bill-wave
 {
-    padding-right: 0.65em;
-    padding-left: 0.65em;
+    padding-right: 0.55em;
+    padding-left: 0.55em;
 }
 
 .fa-child
 {
-    padding-right: 0.9em;
-    padding-left: 0.9em;
+    padding-right: 0.8em;
+    padding-left: 0.8em;
 }
 
 .info
@@ -172,6 +240,8 @@ input:focus
     display: flex;
     justify-items: center;
     font-family: "Raleway-Regular", Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+    margin-top: 1em;
 }
 
 .fa-info
