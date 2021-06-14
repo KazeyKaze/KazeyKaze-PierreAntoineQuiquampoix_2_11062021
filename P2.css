@@ -1,7 +1,7 @@
 body
 {
-    margin-left: 2.5em;
-    margin-right: 2.5em;
+    margin-left: 3em;
+    margin-right: 3em;
     margin-top: 2.5em;
 }
 
@@ -16,7 +16,7 @@ body
     display: flex;
     list-style: none;
     margin-right: 3em;
-    font-family: "Raleway-Regular";
+    font-family: "Raleway-Regular", Arial, Helvetica, sans-serif;
 }
 
 li
@@ -49,6 +49,131 @@ a:visited, a:link, a
     width: 130%;
     text-align: center;
 }
+
+.texte1
+{
+    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    margin-top: 1.5em;
+}
+
+.texte2
+{
+    font-family: "Raleway-Regular", Arial, Helvetica, sans-serif;
+    margin-top: -1em; 
+}
+
+.search
+{
+display: flex;
+}
+
+.fa-map-marker-alt
+{
+   background-color: #f2f2f2; 
+   border-style: solid;
+   border-width: 1px;
+   border-color: #f2f2f2;
+   border-radius: 15px 0px 0px 15px;
+   padding: 1em;
+}
+
+.recherche
+{
+    border: none;
+    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f2f2f2;
+    font-size: 1.2em;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+input::placeholder 
+{
+    color: black;
+    opacity: 1;
+}
+
+input:focus
+{
+    outline: none;
+}
+
+.bouton
+{
+    border: none;
+    color: white;
+    background-color: #0065fc;
+    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    border-radius: 0px 15px 15px 0px;
+    font-size: 1.2em;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.bouton:hover
+{
+    cursor: pointer;
+}
+
+.filtres
+{
+    display: flex;
+    align-items: center;
+    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    margin-top: 1.5em;
+}
+
+.filtre1
+{
+    padding: 0.7em;
+    display: flex;
+    align-items: center;
+    margin-right: 2em;
+}
+
+.filtre2
+{
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-left: none;
+    border-color: #f2f2f2;
+    border-radius: 30px;
+    padding-right: 1em;
+    margin-right: 2em;
+}
+
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
+{
+    display: flex;
+    color: #0065fc;
+    font-size: 1.4em;
+    justify-content: center;
+    padding: 0.7em;
+    background-color: #deebff;
+    border-radius: 50%;
+    margin-right: 0.6em;
+}
+
+.info
+{
+    display: flex;
+    justify-items: center;
+    font-family: "Raleway-Regular", Arial, Helvetica, sans-serif;
+}
+
+.fa-info
+{
+    color: #0065fc;
+    font-size: 0.9em;
+    border-style: solid;
+    border-color: #f2f2f2;
+    border-radius: 50%;
+    padding: 0.4em;
+    margin-right: 1em;
+}
+
 
 @font-face 
 {
