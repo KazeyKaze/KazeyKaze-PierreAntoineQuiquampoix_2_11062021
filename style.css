@@ -221,18 +221,19 @@ input:focus
     background-color: #deebff;
     border-radius: 50%;
     margin-right: 0.6em;
+    object-fit: cover;
 }
 
 .fa-money-bill-wave
 {
-    padding-right: 0.55em;
-    padding-left: 0.55em;
+    padding-right: 0.52em;
+    padding-left: 0.52em;
 }
 
 .fa-child
 {
-    padding-right: 0.8em;
-    padding-left: 0.8em;
+    padding-right: 0.75em;
+    padding-left: 0.75em;
 }
 
 .info
@@ -287,6 +288,7 @@ h2
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    height: 650px;
     max-width: 1150px;
     min-width: 1150px;
 }
@@ -339,11 +341,76 @@ h2
 {
     width: 350px;
     height: 260px;
+    object-fit: cover;
     border-style: solid;
     border-width: 5px;
     border-color: white;
     border-radius: 25px;
-    margin-bottom: 1.8em;
+    margin-bottom: -10em;
+}
+
+.blocfull
+{
+    display: flex;
+    align-items: flex-start;
+}
+
+.h1-bis
+{
+    font-family: "Raleway-Bold";
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+}
+
+.photo-pop
+{
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    margin-top: 1.5em;
+    margin: 4em;
+    max-width: 560px;
+    min-width: 560px;
+}
+
+.photo-héberg2
+{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.héb2
+{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    border-radius: 25px;
+    margin-bottom: 2em;
+    margin-left: -3em;
+    margin-top: 2em;
+}
+
+.text2
+{
+    font-family: "Raleway-Regular";
+    font-size: 1.1em;
+    background: white;
+    position: absolute;
+    text-align: left;
+    color: black;
+    border-radius: 0px 25px 25px 0px;
+    right: 10%;
+    width: 35%;
+    height: 70.5%;
+    margin-top: 5.70%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    line-height: 2;
 }
 
 @font-face 
