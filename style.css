@@ -55,7 +55,6 @@ table
 	border-spacing: 0;
 }
 /*------------------------- Fin du reset -------------------------*/
-
 body
 {
     margin-left: 3em;
@@ -63,6 +62,7 @@ body
     margin-top: 3em;
 }
 
+/*------------------------- En-tête -------------------------*/
 .logomenu
 {
     display: flex;
@@ -121,6 +121,7 @@ a:visited, a:link, a
     margin-top: -1em; 
 }
 
+/*------------------------- Recherche et filtres -------------------------*/
 .search
 {
     display: flex;
@@ -259,12 +260,23 @@ input:focus
     margin-right: 0.8em;
 }
 
+/*------------------------- Bloc hébergements -------------------------*/
 .héberg
 {
     background-color: #f2f2f2;
     border-radius: 20px;
     margin-top: 1.5em;
     padding: 2em;
+    max-width: 1150px;
+    min-width: 1150px;
+}
+
+.blocphoto
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 650px;
     max-width: 1150px;
     min-width: 1150px;
 }
@@ -281,16 +293,6 @@ h2
     font-family: "Raleway-Bold";
     font-size: 1em;
     margin-top: -4.5em;
-}
-
-.blocphoto
-{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    height: 650px;
-    max-width: 1150px;
-    min-width: 1150px;
 }
 
 .photo-héberg
@@ -348,9 +350,31 @@ h2
     border-radius: 25px;
 }
 
+/*------------------------- Blocs hébergements et populaires -------------------------*/
 .blocfull
 {
     display: flex; 
+}
+
+/*------------------------- Bloc populaires -------------------------*/
+
+
+.photo-pop
+{
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    margin-top: -6.5em;
+    margin-left: 4em;
+    padding-bottom: 2em;
+    max-width: 560px;
+    min-width: 560px;
+}
+
+.photo-héberg2
+{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
 }
 
 .h1-bis
@@ -374,24 +398,6 @@ h2
     font-size: 1.5em;
     margin-top: 2.25em;
     margin-right: 2em;
-}
-
-.photo-pop
-{
-    background-color: #f2f2f2;
-    border-radius: 20px;
-    margin-top: -6.5em;
-    margin-left: 4em;
-    padding-bottom: 2em;
-    max-width: 560px;
-    min-width: 560px;
-}
-
-.photo-héberg2
-{
-    display: flex;
-    justify-content: space-around;
-    position: relative;
 }
 
 .héb2
@@ -426,6 +432,9 @@ h2
     line-height: 2;
 }
 
+/*------------------------- Bloc activcités -------------------------*/
+
+/*------------------------- Polices -------------------------*/
 @font-face 
 {
     font-family: "Raleway-Regular";
