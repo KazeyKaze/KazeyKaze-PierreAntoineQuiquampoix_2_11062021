@@ -147,7 +147,7 @@ li
 .fa-map-marker-alt
 {
    background-color: #f2f2f2;
-   min-width: 2vw;
+   font-size: 1vw;
    text-align: center;
    border-style: solid;
    border-width: 1px;
