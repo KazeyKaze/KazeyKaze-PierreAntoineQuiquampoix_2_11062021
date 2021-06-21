@@ -191,7 +191,8 @@ input:focus
 
 .fa-search
 {
-    display: none;
+    position: absolute;
+    visibility: hidden;
 }
 
 .bouton:hover
