@@ -590,8 +590,8 @@ footer
     font-size: 1vw;
 }
 
-/*------------------- Responsive mobile (≤ à 320px) -------------------*/
-@media only screen and (max-width : 375px)
+/*------------------- Responsive mobile (≤ à 414px) -------------------*/
+@media only screen and (max-width : 414px)
 {
 /*------------------------- Responsive mobile: En-tête -------------------------*/
     .logo
@@ -704,7 +704,7 @@ footer
     .titre-filtres
     {
     font-size: 100%;
-    width: 190px;
+    width: 220px;
     }
 
     .filtres
@@ -785,7 +785,7 @@ footer
     font-size: 70%;
     width: 50;
     right: -7%;
-    height: 93.3%;
+    height: 92%;
     }
 
 /*------------------------- Responsive mobile: Hébergements -------------------------*/
@@ -849,7 +849,7 @@ footer
 
     .réglages-photo-activités-2
     {
-    width: 100%;
+    width: 109.5%;
     height: 180px;
     }
 
