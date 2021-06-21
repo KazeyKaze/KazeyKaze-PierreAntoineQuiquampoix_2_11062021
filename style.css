@@ -191,7 +191,6 @@ input:focus
 
 .fa-search
 {
-    position: absolute;
     visibility: hidden;
 }
 
@@ -686,7 +685,7 @@ footer
 
     .fa-search
     {
-    display: initial;
+    visibility: visible;
     }
 
     .texte-rechercher
