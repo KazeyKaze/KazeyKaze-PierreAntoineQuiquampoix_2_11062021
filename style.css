@@ -73,6 +73,8 @@ a:visited, a:link, a
     color: initial;
 }
 
+
+
 /*------------------------- En-tête -------------------------*/
 .logo
 {
@@ -305,6 +307,12 @@ input:focus
     margin-bottom: 4%;
 }
 
+.photo-hébergements a
+{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
 .h1-hébergements
 {
     width: 70%;
@@ -316,7 +324,6 @@ input:focus
 .h2-hébergements
 {
     width: 70%;
-    margin-top: -1.5%;
     font-family: "Raleway-Bold";
     font-size: 1.2vw;
 }
@@ -330,7 +337,7 @@ input:focus
     border-style: solid;
     border-width: 5px;
     border-color: white;
-    border-radius: 25px;
+    border-radius: 25px 25px 10px 10px;
     box-shadow: 0px 0px 10px 2px rgba(187, 184, 184, 1);
 }
 
@@ -343,7 +350,7 @@ input:focus
     text-align: left;
     color: black;
     border-radius: 0px 0px 25px 25px;
-    bottom: -5%;
+    bottom: -10%;
     width: 95%;
     height: 25%;
     padding-left: 5%;
@@ -441,12 +448,17 @@ input:focus
     border-radius: 0px 25px 25px 0px;
     right: 0%;
     width: 52%;
-    height: 94.4%;
+    height: 94.25%;
     padding-top: 3%;
     padding-left: 3%;
     padding-right: 3%;
     line-height: 1.5;
     box-shadow: 0px 0px 10px 2px rgba(187, 184, 184, 0.6);
+}
+
+.photo-populaires a
+{
+    display: flex;
 }
 
 /*------------------------- Bloc activcités -------------------------*/
@@ -634,7 +646,7 @@ footer
     .inscription
     {
     position: absolute;
-    left: 75vw;
+    right: 5vw;
     top: 5vw;
     width: unset;
     }
@@ -676,20 +688,19 @@ footer
 
     .fa-map-marker-alt
     {
-    font-size: 100%;
+    font-size: 5vw;
     padding: 5%;
     }
 
     .barre-recherche
     {
-    font-size: 100%;
-    padding-right: 15%;
+    font-size: 5vw;
     }
 
     .bouton
     {
     border-radius: 10px;
-    font-size: 100%;
+    font-size: 5vw;
     padding: 0.5em 1em 0.5em 1em;
     margin-left: -3%;
     }
@@ -711,10 +722,14 @@ footer
     margin-bottom: 5%;
     }
 
+    .contenaire-titre-filtres
+    {
+        width: 100%;
+    }
+
     .titre-filtres
     {
     font-size: 100%;
-    width: 220px;
     }
 
     .filtres
@@ -766,6 +781,7 @@ footer
 /*------------------------- Responsive mobile: Populaires -------------------------*/
     .bloc-populaires
     {
+    order: -1;
     width: 100%;
     margin-left: -3%;
     padding-right: 4.8%;
@@ -785,16 +801,17 @@ footer
 
     .réglages-photo-populaires
     {
-    width: 50%;
-    height: 120px;
+    width: 45%;
+    height: 40vw;
+    margin-left: -5%;
     }
 
     .bannières-populaires
     {
-    font-size: 70%;
-    width: 50;
+    font-size: 3.8vw;
+    min-width: 60%;
     right: -7%;
-    height: 92%;
+    min-height: 40vw;
     }
 
 /*------------------------- Responsive mobile: Hébergements -------------------------*/
@@ -807,21 +824,26 @@ footer
 
     .réglages-photo-hébergements
     {
-    width: 96%;
-    height: 200px;
-    margin-top: 15%;
+    width: 89vw;
+    height: 60vw;
+    border-radius: 25px 25px 0px 0px;
+    }
+
+    .photo-hébergements a
+    {
+        margin-top: 15%;
     }
 
     .bannières-hébergements
     {
-    font-size: 70%;
-    width: 93.8%;
-    bottom: -18%;
+    font-size: 3.8vw;
+    min-width: 93.8%;
+    bottom: -15%;
     }
 
     .h1-hébergements
     {
-    width: 100%;
+    min-width: 100%;
     font-size: 90%;
     margin-bottom: -20%;
     }
