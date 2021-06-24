@@ -611,17 +611,16 @@ footer
 /*------------------------- Responsive mobile: En-tête -------------------------*/
     header
     {
-        margin-left: -3%;
-        margin-right: -3%;
+    margin-left: -3%;
+    margin-right: -3%;
     }
 
     .logo
     {
-    width: initial;
-    height: initial;
+    width: 37vw;
+    height: 15vw;
     margin-bottom: 5%;
     margin-top: 3%;
-    margin-left: 3vw;
     }
 
     .logo-et-menu
@@ -632,7 +631,7 @@ footer
 
     .menu
     {
-    font-size: 100%;
+    font-size: 5vw;
     margin-bottom: 5px;
     width: 100%;
     border-bottom: 3px solid;
@@ -669,7 +668,7 @@ footer
 /*------------------------- Responsive mobile: Textes -------------------------*/
     .texte1
     {
-    font-size: 120%;
+    font-size: 5vw;
     line-height: 1.3;
     margin-bottom: 2%;
     margin-top: 5%;
@@ -677,7 +676,7 @@ footer
 
     .texte2
     {
-    font-size: 90%;
+    font-size: 4vw;
     }
 
 /*------------------------- Responsive mobile: Recherche, filtres et informations -------------------------*/
@@ -696,7 +695,7 @@ footer
 
     .barre-recherche
     {
-    font-size: 5vw;
+    font-size: 4.5vw;
     }
 
     .bouton
@@ -731,12 +730,12 @@ footer
 
     .titre-filtres
     {
-    font-size: 100%;
+    font-size: 5vw;
     }
 
     .filtres
     {
-    font-size: 100%;
+    font-size: 5vw;
     margin-bottom: 5%;
     padding-right: 1em;
     }
@@ -761,7 +760,7 @@ footer
 
     .info
     {
-    font-size: 80%;
+    font-size: 4vw;
     line-height: 1.5;
     margin-bottom: 5%;
     }
@@ -786,18 +785,18 @@ footer
     order: -1;
     width: 100%;
     margin-left: -3%;
-    padding-right: 4.8%;
+    padding-right: 4vw;
     border-radius: 0px;
     }
 
     .h1-populaires
     {
-    font-size: 90%;
+    font-size: 5vw;
     }
 
     .fa-chart-line
     {
-    font-size: 90%;
+    font-size: 5vw;
     margin-right: 0%;
     }
 
@@ -805,12 +804,12 @@ footer
     {
     width: 45%;
     height: 40vw;
-    margin-left: -5%;
+    margin-left: -3vw;
     }
 
     .bannières-populaires
     {
-    font-size: 3.8vw;
+    font-size: 4vw;
     min-width: 60%;
     right: -7%;
     min-height: 40vw;
@@ -826,7 +825,7 @@ footer
 
     .réglages-photo-hébergements
     {
-    width: 89vw;
+    width: 87vw;
     height: 60vw;
     border-radius: 25px 25px 0px 0px;
     }
@@ -846,14 +845,14 @@ footer
     .h1-hébergements
     {
     min-width: 100%;
-    font-size: 90%;
+    font-size: 5vw;
     margin-bottom: -20%;
     }
 
     .h2-hébergements
     {
     width: 100%;
-    font-size: 80%;
+    font-size: 5vw;
     margin-top: 15%;
     }
 
@@ -873,7 +872,7 @@ footer
 
     .h1-activités
     {
-    font-size: 90%;
+    font-size: 5vw;
     margin-top: 5%;
     margin-bottom: -7%;
     }
@@ -905,7 +904,7 @@ footer
     .réglages-photo-activités-5
     {
     width: 100%;
-    height: 180px;
+    min-height: 180px;
     }
 
     .écart-activités-1, .écart-activités-2
@@ -915,9 +914,13 @@ footer
 
     .bannières-activités
     {
-    font-size: 70%;
+    display: flex;
+    font-size: 4vw;
     width: 95%;
     height: 25%;
+    padding-top: 0%;
+    justify-content: flex-start;
+    align-items: center;
     }
 
 /*------------------------- Responsive mobile: Footer -------------------------*/
@@ -926,7 +929,7 @@ footer
     width: 100%;
     max-height: 100%;
     margin-top: 15%;
-    padding-right: 6.3%;
+    padding-right: 5.5vw;
     }
 
     .bloc-footer-1, .bloc-footer-2, .bloc-footer-3
@@ -938,12 +941,12 @@ footer
 
     .footer-paragraphe-1
     {
-    font-size: 120%;
+    font-size: 5vw;
     }
 
     .footer-paragraphe-2
     {
-    font-size: 90%;
+    font-size: 4vw;
     }
 }
 /*------------------------------------------------------------------------------------*/
