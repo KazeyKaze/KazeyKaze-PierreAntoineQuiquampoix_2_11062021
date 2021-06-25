@@ -657,7 +657,7 @@ footer
     border-top: none;
     border-bottom: 3px solid;
     padding-bottom: 11px;
-    padding-top: none;
+    padding-top: unset;
     }
 
     .effet-menu
