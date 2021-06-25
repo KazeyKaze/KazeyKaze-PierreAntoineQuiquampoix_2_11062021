@@ -304,7 +304,7 @@ input:focus
 {
     display: flex;
     position: relative;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
 }
 
 .photo-hébergements a
@@ -318,7 +318,7 @@ input:focus
     width: 70%;
     font-family: "Raleway-Bold";
     font-size: 1.5vw;
-    margin-bottom: 0.5%;
+    margin-bottom: -2%;
 }
 
 .h2-hébergements
@@ -326,6 +326,7 @@ input:focus
     width: 70%;
     font-family: "Raleway-Bold";
     font-size: 1.2vw;
+    margin-top: -1%;
 }
 
 .réglages-photo-hébergements
@@ -428,7 +429,7 @@ input:focus
 .réglages-photo-populaires
 {
     width: 9vw;
-    height: 11vw;
+    height: 9vw;
     object-fit: cover;
     border-style: solid;
     border-width: 5px;
@@ -448,7 +449,7 @@ input:focus
     border-radius: 0px 25px 25px 0px;
     right: 0%;
     width: 52%;
-    height: 94.25%;
+    height: 93.05%;
     padding-top: 3%;
     padding-left: 3%;
     padding-right: 3%;
@@ -887,31 +888,31 @@ footer a:hover
 
     .réglages-photo-activités-1
     {
-    width: 95vw;
+    width: 90vw;
     height: 180px;
     }
 
     .réglages-photo-activités-2
     {
-    width: 95vw;
+    width: 90vw;
     height: 180px;
     }
 
     .réglages-photo-activités-3
     {
-    width: 95vw;
+    width: 90vw;
     height: 180px;
     }
 
     .réglages-photo-activités-4
     {
-    width: 95vw;
+    width: 90vw;
     height: 180px;
     }
 
     .réglages-photo-activités-5
     {
-    width: 95vw;
+    width: 90vw;
     min-height: 180px;
     }
 
@@ -1147,12 +1148,13 @@ footer a:hover
     {
     width: 40vw;
     height: 30vw;
+    margin-bottom: 5%;
     }
 
     .bannières-hébergements
     {
     font-size: 2.5vw;
-    bottom: -10%;
+    bottom: -5%;
     line-height: 1.2;
     }
 
