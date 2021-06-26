@@ -900,6 +900,7 @@ footer a:hover
     position: relative;
     margin-top: 7%;
     max-height: 180px;
+    justify-content: center;
     }
 
     .h1-activités
