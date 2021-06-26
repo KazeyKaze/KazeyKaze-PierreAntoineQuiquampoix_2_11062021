@@ -110,11 +110,11 @@ li
     font-weight: bold;
 }
 
-.menu a:hover
+.liens-menu:hover
 {
     color: #0065fc;
     border-top: 2px solid;
-    padding-top: 3.3vw;
+    padding-top: 3.28vw;
 }
 
 .effet-menu
@@ -323,7 +323,7 @@ input:focus
 
 .h2-hébergements
 {
-    width: 70%;
+    width: 100%;
     font-family: "Raleway-Bold";
     font-size: 1.2vw;
     margin-top: -1%;
@@ -353,7 +353,7 @@ input:focus
     border-radius: 0px 0px 25px 25px;
     bottom: -5%;
     width: 95%;
-    height: 25%;
+    height: 30%;
     padding-left: 5%;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -369,11 +369,12 @@ input:focus
 .bannières-paragraphes-1
 {
     font-weight: bold;
+    font-size: 1.2vw;
 }
 
 .bannières-paragraphes-2
 {
-    font-size: 0.8em;
+    font-size: 1vw;
 }
 
 .fa-star
@@ -409,7 +410,7 @@ input:focus
 {
     font-family: "Raleway-Bold";
     font-size: 1.5vw;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
 }
 
 .titre-populaires
@@ -440,8 +441,10 @@ input:focus
 
 .bannières-populaires
 {
+    display: flex;
+    flex-direction: column;
     font-family: "Raleway-Regular";
-    font-size: 1vw;
+    font-size: 1.1vw;
     background: white;
     position: absolute;
     text-align: left;
@@ -449,7 +452,7 @@ input:focus
     border-radius: 0px 25px 25px 0px;
     right: 0%;
     width: 52%;
-    height: 93.05%;
+    height: 93.06%;
     padding-top: 3%;
     padding-left: 3%;
     padding-right: 3%;
@@ -460,6 +463,14 @@ input:focus
 .photo-populaires a
 {
     display: flex;
+}
+
+.étoiles-populaires
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    padding-bottom: 5%;
 }
 
 /*------------------------- Bloc activcités -------------------------*/
@@ -658,7 +669,7 @@ footer a:hover
     width: unset;
     }
 
-    .menu a:hover
+    .liens-menu:hover
     {
     border-top: none;
     border-bottom: 3px solid;
@@ -818,7 +829,18 @@ footer a:hover
     font-size: 4vw;
     min-width: 60%;
     right: -7%;
-    min-height: 40vw;
+    height: 94.5%;
+    }
+
+    .bannières-paragraphes-1
+    {
+        font-weight: bold;
+        font-size: 4.5vw;
+    }
+    
+    .bannières-paragraphes-2
+    {
+        font-size: 4vw;
     }
 
 /*------------------------- Responsive mobile: Hébergements -------------------------*/
@@ -888,31 +910,31 @@ footer a:hover
 
     .réglages-photo-activités-1
     {
-    width: 90vw;
+    width: 85vw;
     height: 180px;
     }
 
     .réglages-photo-activités-2
     {
-    width: 90vw;
+    width: 85vw;
     height: 180px;
     }
 
     .réglages-photo-activités-3
     {
-    width: 90vw;
+    width: 85vw;
     height: 180px;
     }
 
     .réglages-photo-activités-4
     {
-    width: 90vw;
+    width: 85vw;
     height: 180px;
     }
 
     .réglages-photo-activités-5
     {
-    width: 90vw;
+    width: 85vw;
     min-height: 180px;
     }
 
@@ -925,8 +947,8 @@ footer a:hover
     {
     display: flex;
     font-size: 4vw;
-    width: 95%;
-    height: 25%;
+    width: 80.65vw;
+    height: 30%;
     padding-top: 0%;
     justify-content: flex-start;
     align-items: center;
@@ -967,32 +989,35 @@ footer a:hover
 /*------------------------- Responsive tablette: En-tête -------------------------*/
     .logo
     {
-    width: 15vw;
-    height: 10vw;
+    width: 10vw;
+    height: 7vw;
     }
 
     .menu
     {
-    font-size: 3vw;
+    font-size: 1em;
     }
 
-    .menu a:hover
+    .liens-menu:hover
     {
     color: #0065fc;
-    border-top: 2px solid;
-    padding-top: 2.95vw;
+    border-top: none;
+    padding-top: none;
     }
 
 /*------------------------- Responsive tablette: Textes -------------------------*/
     .texte1
     {
-    font-size: 3vw;
-    margin-top: 5vw;
+    font-size: 1.5em;
+    margin-top: 0vw;
+    line-height: 1.3;
     }
 
     .texte2
     {
-    font-size: 2.5vw;
+    font-size: 1em;
+    margin-bottom: -3%;
+    margin-top: 0%;
     }
 
 /*------------------------- Responsive tablette: Recherche, filtres et informations -------------------------*/
@@ -1004,18 +1029,18 @@ footer a:hover
 
     .fa-map-marker-alt
     {
-    font-size: 3.5vw;
-    padding: 2.5vw;
+    font-size: 1em;
+    padding: 0.5em;
     }
 
     .barre-recherche
     {
-    font-size: 3vw;
+    font-size: 1em;
     }
 
     .bouton
     {
-    font-size: 3vw;
+    font-size: 0.8em;
     }
 
     .bloc-filtres
@@ -1031,30 +1056,31 @@ footer a:hover
 
     .titre-filtres
     {
-    font-size: 3vw;
+    font-size: 1em;
+    margin-top: 0.5%;
     }
 
     .filtres
     {
-    font-size: 2.5vw;
-    margin-bottom: 5%;
+    font-size: 1em;
+    margin-bottom: 3%;
     padding: 0%;
     padding-right: 2vw;
     }
 
     .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
     {
-    font-size: 3vw;
+    font-size: 1.3em;
     }
 
     .info
     {
-    font-size: 2.5vw;
+    font-size: 1em;
     }
 
     .fa-info
     {
-    font-size: 3vw;
+    font-size: 1em
     }
 
 /*------------------------- Responsive tablette: Blocs hébergements et populaires -------------------------*/
@@ -1072,7 +1098,7 @@ footer a:hover
     justify-content: center;
     flex-wrap: wrap;
     margin-left: 0%;
-    margin-top: 3%;
+    margin-top: 1%;
     width: 96%;
     }
 
@@ -1104,17 +1130,28 @@ footer a:hover
 
     .réglages-photo-populaires
     {
-    width: 51vw;
-    height: 25vw;
+    width: 45vw;
+    height: 20vw;
     }
 
     .bannières-populaires
     {
     font-size: 2.5vw;
     right: 6%;
-    width: 35%;
-    height: 96.4%;
+    width: 41%;
+    height: 95.5%;
     padding-top: 1%;
+    }
+
+    .bannières-paragraphes-1
+    {
+        font-weight: bold;
+        font-size: 3vw;
+    }
+    
+    .bannières-paragraphes-2
+    {
+        font-size: 3vw;
     }
 
 /*------------------------- Responsive tablette: Hébergements -------------------------*/
@@ -1141,7 +1178,6 @@ footer a:hover
     {
     width: 100%;
     font-size: 2vw;
-    margin-top: 3%;
     }
 
     .réglages-photo-hébergements
