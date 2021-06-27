@@ -189,6 +189,7 @@ input:focus
     border-radius: 0px 15px 15px 0px;
     font-size: 1.2vw;
     padding: 0.5em 1em 0.5em 1em;
+    -webkit-appearance: none;
 }
 
 .fa-search
@@ -721,6 +722,7 @@ footer a:hover
     font-size: 5vw;
     padding: 0.5em 1em 0.5em 1em;
     margin-left: -3%;
+    -webkit-appearance: none;
     }
 
     .fa-search
@@ -1043,6 +1045,7 @@ footer a:hover
     .bouton
     {
     font-size: 0.8em;
+    -webkit-appearance: none;
     }
 
     .bloc-filtres
