@@ -148,12 +148,9 @@ li
 
 .fa-map-marker-alt
 {
-   background-color: #f2f2f2;
    font-size: 1vw;
    text-align: center;
-   border-style: solid;
-   border-width: 1px;
-   border-color: #f2f2f2;
+   border-style: 1px solid #f2f2f2;
    border-radius: 15px 0px 0px 15px;
    padding: 1%;
 }
@@ -162,9 +159,7 @@ li
 {
     border: none;
     font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
     font-size: 1.1vw;
     padding: 0.5em 1em 0.5em 1em;
 }
@@ -222,10 +217,8 @@ input:focus
     display: flex;
     font-size: 1vw;
     align-items: center;
-    border-style: solid;
-    border-width: 2px;
+    border: 2px solid #f2f2f2;
     border-left: none;
-    border-color: #f2f2f2;
     border-radius: 30px;
     padding-right: 1vw;
     margin-right: 2vw;
@@ -272,13 +265,9 @@ input:focus
 {
     color: #0065fc;
     font-size: 0.9vw;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #f2f2f2;
+    border: 2px solid #f2f2f2;
     border-radius: 50%;
-    padding: 0.4em;
-    padding-right: 0.7em;
-    padding-left: 0.7em;
+    padding: 0.4em 0.7em;
     margin-right: 1em;
 }
 
@@ -294,10 +283,10 @@ input:focus
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 2%;
     max-width: 65%;
     background-color: #f2f2f2;
     border-radius: 20px;
+    margin-top: 2%;
     padding: 1.5%;
 }
 
@@ -336,9 +325,7 @@ input:focus
     width: 18vw;
     height: 10vw;
     object-fit: cover;
-    border-style: solid;
-    border-width: 5px;
-    border-color: white;
+    border: 5px solid white;
     border-radius: 25px 25px 10px 10px;
 }
 
@@ -388,11 +375,11 @@ input:focus
 {
     display: flex;
     flex-direction: column;
-    background-color: #f2f2f2;
-    margin-top: 2%;
-    border-radius: 20px;
-    margin-left: 2%;
     width: 30%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: 2%;
     padding: 1.5%;
 }
 
@@ -432,9 +419,7 @@ input:focus
     width: 9vw;
     height: 9vw;
     object-fit: cover;
-    border-style: solid;
-    border-width: 5px;
-    border-color: white;
+    border: 5px solid white;
     border-radius: 25px 0px 0px 25px;
     box-shadow: 6px 7px 15px -2px rgba(187, 184, 184, 0.4);
 }
@@ -531,16 +516,7 @@ input:focus
     border-radius: 25px 25px 25px 25px;
 }
 
-.réglages-photo-activités-4
-{
-    display: flex;
-    width: 21vw;
-    height: 15.35vw;
-    object-fit: cover;
-    border-radius: 25px 25px 25px 25px;
-}
-
-.réglages-photo-activités-5
+.réglages-photo-activités-4, .réglages-photo-activités-5
 {
     display: flex;
     width: 21vw;
@@ -651,8 +627,7 @@ footer a:hover
     font-size: 5vw;
     margin-bottom: 5px;
     width: 100%;
-    border-bottom: 3px solid;
-    border-color: #f2f2f2;
+    border-bottom: 3px solid #f2f2f2;
     }
 
     li
@@ -672,9 +647,10 @@ footer a:hover
     .liens-menu:hover
     {
     border-top: none;
+    padding-top: unset;
     border-bottom: 3px solid;
     padding-bottom: 3.3vw;
-    padding-top: unset;
+    
     }
 
     .effet-menu
@@ -743,7 +719,7 @@ footer a:hover
 
     .contenaire-titre-filtres
     {
-        width: 100%;
+    width: 100%;
     }
 
     .titre-filtres
@@ -864,7 +840,7 @@ footer a:hover
 
     .photo-hébergements a
     {
-        margin-top: 15%;
+    margin-top: 15%;
     }
 
     .bannières-hébergements
@@ -990,7 +966,7 @@ footer a:hover
     }
 }
 /*------------------------------------------------------------------------------------*/
-/*------------------------- Responsive tablette (≤ à 1188px) -------------------------*/
+/*------------------------- Responsive tablette (414px à 1188px) -------------------------*/
 /*------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 415px) and (max-width : 1188px)
 {
@@ -1061,7 +1037,7 @@ footer a:hover
 
     .contenaire-titre-filtres
     {
-        width: 5em;
+    width: 5em;
     }
 
     .titre-filtres
@@ -1154,13 +1130,13 @@ footer a:hover
 
     .bannières-paragraphes-1
     {
-        font-weight: bold;
-        font-size: 2.5vw;
+    font-weight: bold;
+    font-size: 2.5vw;
     }
     
     .bannières-paragraphes-2
     {
-        font-size: 2.5vw;
+    font-size: 2.5vw;
     }
 
 /*------------------------- Responsive tablette: Hébergements -------------------------*/
