@@ -996,7 +996,7 @@ footer a:hover
     {
     color: #0065fc;
     border-top: none;
-    padding-top: none;
+    padding-top: unset;
     }
 
 /*------------------------- Responsive tablette: Textes -------------------------*/
@@ -1336,7 +1336,7 @@ footer a:hover
     {
     color: #0065fc;
     border-top: none;
-    padding-top: none;
+    padding-top: unset;
     }
 
     /*------------------------- Responsive tablette: Textes -------------------------*/
