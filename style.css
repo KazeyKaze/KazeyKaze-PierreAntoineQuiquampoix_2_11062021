@@ -57,6 +57,7 @@ table
 /*------------------------- Général -------------------------*/
 body
 {
+    font-family: "Raleway-Regular", Arial, Helvetica, sans-serif;
     margin-left: 3%;
     margin-right: 3%;
     margin-top: 3%;
@@ -72,8 +73,6 @@ a:visited, a:link, a
     text-decoration: none;
     color: initial;
 }
-
-
 
 /*------------------------- En-tête -------------------------*/
 .logo
@@ -95,7 +94,6 @@ a:visited, a:link, a
 {
     display: flex;
     list-style: none;
-    font-family: "Raleway-Regular";
     font-size: 1vw;
 }
 
@@ -134,7 +132,6 @@ li
 
 .texte2
 {
-    font-family: "Raleway-Regular", Arial, Helvetica, sans-serif;
     font-size: 1vw;
     margin-top: -1%; 
 }
@@ -256,7 +253,6 @@ input:focus
 .info
 {
     display: flex;
-    font-family: "Raleway-Regular", Arial, Helvetica, sans-serif;
     font-size: 1vw;
     margin-top: 1.5%;
 }
@@ -306,7 +302,7 @@ input:focus
 .h1-hébergements
 {
     width: 70%;
-    font-family: "Raleway-Bold";
+    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
     font-size: 1.5vw;
     margin-bottom: -2%;
 }
@@ -314,7 +310,7 @@ input:focus
 .h2-hébergements
 {
     width: 100%;
-    font-family: "Raleway-Bold";
+    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
     font-size: 1.2vw;
     margin-top: -1%;
 }
@@ -331,7 +327,6 @@ input:focus
 
 .bannières-hébergements
 {
-    font-family: "Raleway-Regular";
     font-size: 1vw;
     background: white;
     position: absolute;
@@ -395,7 +390,7 @@ input:focus
 
 .h1-populaires
 {
-    font-family: "Raleway-Bold";
+    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
     font-size: 1.5vw;
     margin-bottom: 2%;
 }
@@ -428,7 +423,6 @@ input:focus
 {
     display: flex;
     flex-direction: column;
-    font-family: "Raleway-Regular";
     font-size: 1.1vw;
     background: white;
     position: absolute;
@@ -477,7 +471,7 @@ input:focus
 
 .h1-activités
 {
-    font-family: "Raleway-Bold";
+    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
     font-size: 1.5vw;
     margin-top: 2%;
     margin-bottom: 0.5%;
@@ -533,7 +527,7 @@ input:focus
 
 .bannières-activités
 {
-    font-family: "Raleway-Bold";
+    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
     font-size: 1vw;
     background: white;
     position: absolute;
@@ -578,14 +572,13 @@ footer
 
 .footer-paragraphe-1
 {
-    font-family: "Raleway-Bold";
+    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
     font-size: 1.2vw;
     margin-bottom: 3%;
 }
 
 .footer-paragraphe-2
 {
-    font-family: "Raleway-Regular";
     line-height: 2;
     font-size: 1vw;
 }
@@ -1287,14 +1280,13 @@ footer a:hover
 
     .footer-paragraphe-1
     {
-    font-family: "Raleway-Bold";
+    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
     font-size: 2.5vw;
     margin-bottom: 3%;
     }
 
     .footer-paragraphe-2
     {
-    font-family: "Raleway-Regular";
     line-height: 2;
     font-size: 2vw;
     }
