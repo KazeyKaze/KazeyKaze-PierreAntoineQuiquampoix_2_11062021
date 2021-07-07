@@ -997,8 +997,8 @@ footer a:hover
     .liens-menu:hover
     {
     color: #0065fc;
-    border-top: none;
-    padding-top: unset;
+    border-top: 2px solid;
+    padding-top: 3.17vw;
     }
 
 /*------------------------- Responsive tablette: Textes -------------------------*/
@@ -1231,14 +1231,13 @@ footer a:hover
 
     .réglages-photo-activités-1
     {
-    width: 70vw;
-    height: 86vw;
+    width: 85vw;
+    height: 30vw;
     }
 
     .réglages-photo-activités-2
     {
-    margin-top: -7%;
-    width: 70vw;
+    width: 85vw;
     height: 30vw;
     }
 
@@ -1249,21 +1248,19 @@ footer a:hover
 
     .réglages-photo-activités-3
     {
-    width: 70vw;
-    height: 20vw;
-    padding-bottom: 5%;
+    width: 85vw;
+    height: 30vw;
     }
 
     .réglages-photo-activités-4
     {
-    margin-top: -9%;
-    width: 70vw;
+    width: 85vw;
     height: 30vw;
     }
 
     .réglages-photo-activités-5
     {
-    width: 70vw;
+    width: 85vw;
     height: 30vw;
     }
 
@@ -1277,7 +1274,7 @@ footer a:hover
     position: absolute;
     font-size: 2.5vw;
     bottom: 9.5%;
-    width: 65.45vw;
+    width: 80.5vw;
     height: 11vw;
     padding-bottom: 0vw;
     padding-top: 0vw;
@@ -1337,8 +1334,8 @@ footer a:hover
     .liens-menu:hover
     {
     color: #0065fc;
-    border-top: none;
-    padding-top: unset;
+    border-top: 2px solid;
+    padding-top: 2.6vw;
     }
 
     /*------------------------- Responsive tablette: Textes -------------------------*/
