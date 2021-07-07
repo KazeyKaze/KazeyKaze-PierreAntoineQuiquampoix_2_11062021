@@ -609,29 +609,30 @@ footer a:hover
 /*------------------------- Responsive mobile: En-tête -------------------------*/
     header
     {
-    margin-left: -3%;
-    margin-right: -3%;
+    width: 100%;
     }
 
     .logo
     {
-    width: 37vw;
+    width: 40%;
     height: 15vw;
     margin-bottom: 5%;
     margin-top: 3%;
+    margin-right: auto;
     }
 
     .logo-et-menu
     {
     flex-wrap: wrap;
     width: 100%;
+    justify-content: space-evenly;
     }
 
     .menu
     {
     font-size: 5vw;
     margin-bottom: 5px;
-    width: 100%;
+    width: 94.9vw;
     border-bottom: 3px solid #f2f2f2;
     }
 
@@ -655,7 +656,6 @@ footer a:hover
     padding-top: unset;
     border-bottom: 3px solid;
     padding-bottom: 3.3vw;
-    
     }
 
     .effet-menu
@@ -870,7 +870,7 @@ footer a:hover
     width: 100%;
     font-size: 5vw;
     margin-top: 35%;
-    margin-left: -99%;
+    margin-left: -93%;
     }
 
 /*------------------------- Responsive mobile: Activités -------------------------*/
